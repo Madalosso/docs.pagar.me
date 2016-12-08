@@ -33,7 +33,7 @@ Contém os dados de uma conta bancária para futuros pagamentos.
 | **agencia_dv**<br> String | Dígito verificador da agência |
 | **conta**<br> String | Número da conta bancária |
 | **conta_dv**<br> String | Dígito verificador da conta |
-| **type**<br> String | Tipo da conta bancria (conta_corrente, conta_poupanca, conta_corrente_conjunta, conta_poupanca_conjunta) |
+| **type**<br> String | Tipo da conta bancária (conta_corrente, conta_poupanca, conta_corrente_conjunta, conta_poupanca_conjunta) |
 | **document_type**<br> String | Tipo do documento do titular da conta |
 | **document_number**<br> String | Número do documento do titular da conta (cpf ou cnpj) |
 | **legal_name**<br> String | Nome completo (se pessoa física) ou Razão Social (se pessoa jurídica) |
