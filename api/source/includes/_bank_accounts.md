@@ -137,7 +137,7 @@ Cria uma conta bancária para futuros pagamentos.
 | **agencia_dv** | Dígito verificador da sua agência <br /> **OBS**: Deve conter 1 dígito, apenas números |
 | **conta**<br> <span class="required">obrigatório</span> | Número da conta bancária <br /> **OBS**: Limite de 13 caracteres, apenas números |
 | **conta_dv**<br> <span class="required">obrigatório</span> | Dígito verificador da conta <br /> **OBS**: Limite de 2 caracteres, apenas alfanuméricos |
-| **type**<br> String | Tipo da conta bancária <br> **Valores possíveis**: `conta_corrente`, `conta_poupanca`, `conta_corrente_conjunta`, `conta_poupanca_conjunta` |
+| **type**<br> default: `conta_corrente` | Tipo da conta bancária <br> **Valores possíveis**: `conta_corrente`, `conta_poupanca`, `conta_corrente_conjunta`, `conta_poupanca_conjunta` |
 | **document_number**<br> <span class="required">obrigatório</span> | Documento identificador do titular da conta (cpf ou cnpj)<br> **Ex**: `35146484252` |
 | **legal_name**<br> <span class="required">obrigatório</span> | Nome completo (se pessoa física) ou razão social (se pessoa jurídica) |
 
