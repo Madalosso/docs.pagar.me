@@ -108,6 +108,9 @@ Ao criar ou atualizar uma transação, este será o objeto que você irá recebe
 | **date_created**<br> String | Data de criação da transação no formato ISODate |
 | **date_updated**<br> String | Data de atualização da transação no formato ISODate |
 | **amount**<br> Number | Valor, em centavos, da transação |
+| **paid_amount**<br> Number | Valor, em centavos, capturado da transação |
+| **refunded_amount**<br> Number | Valor, em centavos, estornado da transação |
+| **authorized_amount**<br> Number | Valor, em centavos, autorizado da transação |
 | **installments**<br> Number | Número de parcelas/prestações a serem cobradas |
 | **id**<br> Number | Número identificador da transação |
 | **cost**<br> Number | Custo da transação para o lojista |
