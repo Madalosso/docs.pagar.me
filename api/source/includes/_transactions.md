@@ -40,7 +40,7 @@ Através da rota `/transactions` e suas derivadas, você pode criar transações
   "boleto_barcode": null,
   "boleto_expiration_date": null,
   "referer": "api_key",
-  "ip": "187.11.121.49",
+  "ip": "189.8.94.42",
   "subscription_id": null,
   "phone": {
     "object": "phone",
@@ -295,7 +295,7 @@ Para fazer uma cobrança, você deve usar a rota `/transactions` para criar sua 
     "boleto_barcode": null,
     "boleto_expiration_date": null,
     "referer": "api_key",
-    "ip": "187.11.121.49",
+    "ip": "189.8.94.42",
     "subscription_id": null,
     "phone": {
       "object": "phone",
