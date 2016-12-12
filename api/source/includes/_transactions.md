@@ -226,12 +226,9 @@ PagarMeService.DefaultApiKey = "ak_test_grXijQ4GicOa2BLGZrDRTR5qNQxJW0";
 Transaction transaction = new Transaction();
 
 transaction.Amount = 100;
-
-Card cd = new Card()
-{
-	Id = "card_ci6l9fx8f0042rt16rtb477gj"
+transaction.Card = new Card() { 
+    Id = "card_ci6l9fx8f0042rt16rtb477gj"
 };
-transaction.Card = cd;
 transaction.Customer = new Customer () {
 	Name = "Aardvark Silva",
 	Email = "aardvark.silva@pagar.me",
