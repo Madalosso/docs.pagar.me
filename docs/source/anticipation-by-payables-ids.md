@@ -1,7 +1,7 @@
 
 # Antecipações escolhendo recebíveis
 
-Através da rota `/recipients/:recipient_id/bulk_anticipations` e suas derivadas, você pode criar antecipações especificando qual recebível gostaria de antecipar, ou seja, 
+Através da rota `/recipients/:recipient_id/bulk_anticipations` e suas derivadas, você pode criar antecipações especificando quais recebíveis gostaria, ou seja, 
 recebíveis que pertençam a um grupo de transações que mais lhe interesse. Segue:
 
 ## Objeto `bulk_anticipation`
@@ -93,13 +93,10 @@ Para criar uma antecipação, você deve usar a rota `/recipients/:recipient_id/
 
 ## Exemplo prático
 
-1. Você deve fazer uma antecipação com todos os parâmetros normais, com acréscimo de 'payables_ids':[id1,id2,id3], sendo que cada um desses payables é de R$ 500,00, para vencimento em 01/12/16, 02/12/16, e 03/12/16 respectivamente (e considerando taxa de antecipação = 0 ).
+1. Ao fazer a antecipação escolhendo os 'payables_ids':[id1,id2,id3], sendo que cada um desses payables é de R$ 500,00, para vencimento em 01/12/16, 02/12/16, e 03/12/16 respectivamente (e considerando taxa de antecipação = 0 **apenas para ilustração**).
 - a) se requested_amount = R$ 1000,00 e timeframe = start: Ele vai antecipar os payables id1 e id2
 - b) se requested_amount = R$ 1000,00 e timeframe = end: Ele vai antecipar os payables id2 e id3
 - c) se requested_amount = R$ 7000,00: ele vai antecipar payables id1, id2 e id3 , independentemente de timeframe (vai ser valor R$ 1500,00)
 
 Para saber mais sobre antecipação: [Refêrencia completa API - Pagar.Me](https://docs.pagar.me/api/#antecipacoes)
-
-
-
 
