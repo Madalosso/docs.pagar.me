@@ -179,9 +179,9 @@ Use a rota `/cards/:id` para retornar os dados de um cartão previamente salvo.
 | **api_key**<br> <span class="required">obrigatório</span> | Chave da API (disponível no seu dashboard) |
 
 
-## Cobrança de 1,23
+## Validação de R$ 1,23
 
-Essa cobrança é realizada para validar o cartão que pode vir a ser utilizado na criação de uma transação (objeto transaction) ou de uma assinatura (subscription). Ou seja, a API Pagar.Me envia uma requisição ao banco emissor, pedindo a reserva de R$1,23 no saldo do portador, caso autorizada, cria um novo cartão em nossa base, retornando o seguinte objeto: 
+Essa cobrança é realizada para validar o cartão que pode vir a ser utilizado na criação de uma transação (objeto transaction) ou de uma assinatura (subscription). Ou seja, a API Pagar.Me envia uma requisição ao banco emissor, pedindo a reserva de R$1,23 no saldo do portador, caso autorizada, cria um novo cartão em nossa base, retornando o objeto ao lado: 
 
 ```json
  {
@@ -203,4 +203,4 @@ Essa cobrança é realizada para validar o cartão que pode vir a ser utilizado 
 
 Em que o id `card_civi47gf900dgwf6dugd02b98` pode ser reutilizado para futuras compras.
 
-OBS: O valor `será estornado` para o portador do cartão no exato momento após a validação dos dados.
+** OBS: O valor `será estornado` para o portador do cartão no exato momento após a validação dos dados.
