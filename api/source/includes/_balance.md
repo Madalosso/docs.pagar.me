@@ -70,7 +70,6 @@ Com essa rota `/balance` você poderá consultar o saldo gerado pelas suas trans
 | Parâmetro | Descrição |
 |--:|:--|
 | **api_key**<br> <span class="required">obrigatório</span> | Chave da API (disponível no seu dashboard) |
-| **recipient_id**<br> default: `null` | Id de um recebedor específico, caso queira obter o saldo específico dele |
 
 ## Saldo de um recebedor específico
 
@@ -111,5 +110,5 @@ Retorna o balanço de saldo de um determinado recebedor.
 
 | Parâmetro | Descrição |
 |--:|:--|
-| **api_key**<br> <span class="required">obrigatório</span> | Chave da API (disponível no seu dashboard) |
-| **:id**<br> <span class="required">obrigatório</span> | Id de recebedor desejado |
+| **api_key**<br> <span class="required">obrigatório</span> | Chave da API (disponível em sua Dashboard) |
+| **:id**<br> <span class="required">obrigatório</span> | Id do recebedor desejado |
