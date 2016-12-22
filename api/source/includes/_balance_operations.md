@@ -137,7 +137,7 @@ Com a rota `/balance/operations` você poderá ver todos os movimentos ocorridos
 | **api_key**<br> <span class="required">obrigatório</span> | Chave da API (disponível no seu dashboard) |
 | **count**<br> default: `10` | Retorna `n` objetos de operação de saldo |
 | **page**<br> default: `1` | Útil para implementação de uma paginação de resultados |
-
+| **status**<br> default: `available` | Estado do saldo da conta. Valores possíveis: waiting_funds, available e transferred |
 ## Histórico específico de uma operação 
 
 > GET https://api.pagar.me/1/balance/operations/:id
