@@ -203,4 +203,4 @@ Essa cobrança é realizada para validar o cartão que pode vir a ser utilizado 
 
 Em que o id `card_civi47gf900dgwf6dugd02b98` pode ser reutilizado para futuras compras.
 
-** OBS: O valor `será estornado` para o portador do cartão no exato momento após a validação dos dados.
+**OBS:** O valor `será estornado` para o portador do cartão no exato momento após a validação dos dados.
