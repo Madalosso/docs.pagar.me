@@ -71,7 +71,7 @@ Com essa rota `/balance` você poderá consultar o saldo gerado pelas suas trans
 |--:|:--|
 | **api_key**<br> <span class="required">obrigatório</span> | Chave da API (disponível no seu dashboard) |
 
-## Saldo de um recebedor específico
+## Saldo geral de um recebedor específico
 
 > GET https://api.pagar.me/1/recipients/:id/balance
 
