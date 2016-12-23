@@ -276,7 +276,7 @@ A criação de uma `subscription` (assinatura) é parecida com a criação de um
 |--:|:--|
 | **api_key**<br> <span class="required">obrigatório</span> | Chave da API (disponível no seu dashboard) |
 | **plan_id**<br> <span class="required">obrigatório</span> | id do plano a ser associado a uma assinatura |
-| **card_hash**<br> <span class="required">obrigatório</span> | Dados encriptados do cartão do cliente. Você também pode usar o `card_id` ao invés do `card_hash` |
+| **card_hash**<br> <span class="required">obrigatório</span> | Dados encriptados do cartão do cliente. Você também pode usar o `card_id` ao invés do `card_hash` **OBS**: No caso de pagamentos via boleto não utilizar o `card_hash` ou o `card_id`|
 | **postback_url** | URL onde nosso sistema irá enviar requisições informando a cada alteração de status da assinatura em questão |
 | **customer[email]**<br> <span class="required">obrigatório</span> | Email do cliente |
 | **customer[name]**<br> <span class="required">obrigatório (com antifraude)</span> | Nome completo ou razão social do cliente que está realizando a transação |
