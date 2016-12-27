@@ -12,7 +12,7 @@ search: true
 
 **Acessando o plugin:**
 
-Para ter acesso ao nosso módulo, basta clicar no seguinte link e baixa-lo direto do nosso github [prestaShop](https://github.com/pagarme/pagarme-prestashop)
+Para ter acesso ao nosso módulo, basta clicar no seguinte link e `baixá-lo` direto do nosso github [PrestaShop](https://github.com/pagarme/pagarme-prestashop)
 
 **Instalando o plugin:**
 
