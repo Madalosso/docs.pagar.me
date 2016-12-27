@@ -175,7 +175,7 @@ subscription.create
 PagarMeService.DefaultApiKey = "ak_test_grXijQ4GicOa2BLGZrDRTR5qNQxJW0";
 
 Subscription subscription = new Subscription();
-subscription.PaymentMethod = "credit_card";
+subscription.PaymentMethod = PaymentMethod.CreditCard;
 subscription.CardNumber = "4901720080344448";
 subscription.CardHolderName = "Jose da Silva";
 subscription.CardExpirationDate = "1215";
