@@ -45,7 +45,7 @@ Objeto contendo os dados de um recebedor.
 | **transfer_interval**<br> String | Frequência na qual o recebedor irá ser pago. <br> **Valores possíveis**: `daily`, `weekly`, `monthly` |
 | **transfer_day**<br> Number | Dia no qual o recebedor vai ser pago. Para cada `transfer_day`, existe uma faixa de pagamento possível. <br> `weekly`: 1 a 5, onde 1 é segunda-feira e 5 é sexta-feira <br> `monthly`: 1 a 31 |
 | **automatic_anticipation_enabled**<br> Boolean | Identifica se o recebedor está habilitado para receber automaticamente ou não o valor disponível para antecipação |
-| **anticipatable_volume_percentage**<br> Number | Porcentagem do valor passível de antecipação que será antecipado automaticamente (Esse campo só é válido caso exista a propriedade `automatic_anticipation_enabled=true`) |
+| **anticipatable_volume_percentage**<br> Number | Porcentagem do valor passível de antecipação que será antecipado automaticamente |
 | **date_created**<br> String | Data de criação do recebedor (ISODate) |
 | **date_updated**<br> String | Data de atualização do recebedor |
 
@@ -142,7 +142,7 @@ Com essa rota você consegue criar um recebedor, definindo o período que ele ir
 | **bank_account[document_number]** | CPF ou CNPJ do recebedor |
 | **bank_account[legal_name]** | Nome completo ou razão social do recebedor |
 | **automatic_anticipation_enabled** |Identifica se o recebedor será habilitado a receber automaticamente ou não o valor disponível para antecipação <br> **Valores possíveis**: `true`, `false` | 
-| **anticipatable_volume_percentage** | Porcentagem do valor passível de antecipação que será antecipado automaticamente | 
+| **anticipatable_volume_percentage** | Porcentagem do valor passível de antecipação que será antecipado automaticamente (Esse campo só é válido caso exista a propriedade `automatic_anticipation_enabled=true`) | 
 
 ## Retornando todos os recebedores
 
