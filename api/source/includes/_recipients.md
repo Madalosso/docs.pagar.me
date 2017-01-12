@@ -141,6 +141,8 @@ Com essa rota você consegue criar um recebedor, definindo o período que ele ir
 | **bank_account[conta_dv]** | Dígito verificador da conta do recebedor |
 | **bank_account[document_number]** | CPF ou CNPJ do recebedor |
 | **bank_account[legal_name]** | Nome completo ou razão social do recebedor |
+| **automatic_anticipation_enabled** |Identifica se o recebedor será habilitado a receber automaticamente ou não o valor disponível para antecipação <br> **Valores possíveis**: `true`, `false` | 
+| **anticipatable_volume_percentage** | Porcentagem do valor passível de antecipação que será antecipado automaticamente | 
 
 ## Retornando todos os recebedores
 
